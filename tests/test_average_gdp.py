@@ -1,7 +1,6 @@
 from reports.average_gdp import AverageGDPReport
 
 
-
 def test_average_gdp_single_country():
     rows = [
         {"country": 'A', "gdp":'10'},
